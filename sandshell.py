@@ -1,3 +1,5 @@
+#sandshell v1.0
+
 import subprocess
 
 #idleorcommandline is from the project https://github.com/ilovecode1/PylaunchAPI
