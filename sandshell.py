@@ -1,4 +1,4 @@
-#sandshell v1.0
+#sandshell v1.0.5
 
 import subprocess
 
@@ -22,7 +22,7 @@ def idleorcommandline():
 
 class sandshell:
 
-  def runsingle(command):
+  def runsingle(self, command):
     
     ioc = idleorcommandline()
     
@@ -33,7 +33,7 @@ class sandshell:
       
       print(null)
     
-  def runmultiple(commands):
+  def runmultiple(self, commands):
    
     if ioc == False: 
     
